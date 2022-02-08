@@ -1,0 +1,419 @@
+[
+  {
+    "Name": "Adarsh Sinari",
+    "Designation": "Trainee Software Developer",
+    "Email": "adarsh.sinari@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "47.png"
+  },
+  {
+    "Name": "Ajay Pareek",
+    "Designation": "Senior Server Administrator",
+    "Email": "ajay.pareek@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "42.png"
+  },
+  {
+    "Name": "Alisha D'cruz",
+    "Designation": "HR Officer",
+    "Email": "alisha.dcruz@CdMx.in",
+    "Phone": 9049597020,
+    "Sign Pic": "37.png"
+  },
+  {
+    "Name": "Amresh Velgekar",
+    "Designation": "Lead - Compliance",
+    "Email": "amresh.velgekar@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "4.png"
+  },
+  {
+    "Name": "Ankit Parihar",
+    "Designation": "Security Analyst",
+    "Email": "ankit.parihar@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "20.png"
+  },
+  {
+    "Name": "Asmita Singh",
+    "Designation": "Software Developer",
+    "Email": "asmita.singh@cdmx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Ashitosh Dessai",
+    "Designation": "Software Developer - UI/UX",
+    "Email": "ashitosh.dessai@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "8.png"
+  },
+  {
+    "Name": "Ashley Colaco",
+    "Designation": "Trainee Software Developer",
+    "Email": "ashley.colaco@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "22.png"
+  },
+  {
+    "Name": "Pavan Kalyan",
+    "Designation": "Trainee Software Developer",
+    "Email": "pavan.kalyan@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "46.png"
+  },
+  {
+    "Name": "Blanca Neola Rebello",
+    "Designation": "Quality Analyst Manager",
+    "Email": "blanca.rebello@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "27.png"
+  },
+  {
+    "Name": "ChiragKumar Patel",
+    "Designation": "Development Manager",
+    "Email": "chiragkumar.patel@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Cia Fernandes",
+    "Designation": "Personal Assistant to CTO",
+    "Email": "pa.nestinka@CdMx.in",
+    "Phone": "9175873360",
+    "Sign Pic": "39.png"
+  },
+  {
+    "Name": "Crimson Mascarenhas",
+    "Designation": "Administrative Assistant",
+    "Email": "crimson.mascarenhas@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "21.png"
+  },
+  {
+    "Name": "Cynola Rodricks",
+    "Designation": "Project Manager - MNI",
+    "Email": "cynola.rodricks@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "9.png"
+  },
+  {
+    "Name": "Deependra Kashinananth Naik",
+    "Designation": "Technical Support Associate",
+    "Email": "deependra.naik@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "28.png"
+  },
+  {
+    "Name": "Deepika Naik",
+    "Designation": "Tech Lead - QA",
+    "Email": "deepika.naik@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Divya Naik",
+    "Designation": "Senior Quality Analyst - Automation",
+    "Email": "divya.naik@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "25.png"
+  },
+  {
+    "Name": "Divyani Karekar",
+    "Designation": "Senior Software Developer",
+    "Email": "divyani.karekar@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Dorothy Effie Monteiro",
+    "Designation": "Executive - Compliance",
+    "Email": "dorothy.monteiro@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "17.png"
+  },
+  {
+    "Name": "Eva Figueiredo",
+    "Designation": "Quality Analyst Manager",
+    "Email": "eva.figueiredo@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Ishrat Shaikh",
+    "Designation": "Human Resources Manager",
+    "Email": "ishrat.shaikh@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "33.png"
+  },
+  {
+    "Name": "Ismail Shabbirhusain Jamali",
+    "Designation": "Technical Lead",
+    "Email": "ismail.jamali@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "15.png"
+  },
+  {
+    "Name": "Karen Mary Lobo",
+    "Designation": "Software Developer - UI/UX",
+    "Email": "karen.lobo@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "24.png"
+  },
+  {
+    "Name": "Karthik Kanthaswamy",
+    "Designation": "Chief Information Security Officer",
+    "Email": "karthik.kanthaswamy@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Kavita S Naik",
+    "Designation": "Quality Analyst Manager",
+    "Email": "kavita.naik@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "29.png"
+  },
+  {
+    "Name": "Lisa Marie D'souza",
+    "Designation": "Personal Assistant to CEO",
+    "Email": "secretary@CdMx.in",
+    "Phone": 8956647958,
+    "Sign Pic": "38.png"
+  },
+  {
+    "Name": "Mayureshwar Virkar",
+    "Designation": "Chairman, Founder & CEO",
+    "Email": "mayur@CdMx.in",
+    "Phone": 8805550014,
+    "Sign Pic": "43.png"
+  },
+  {
+    "Name": "Navdeep Singh",
+    "Designation": "Senior Software Developer - Laravel",
+    "Email": "navdeep.singh@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Neha Baig",
+    "Designation": "Quality Analyst Manager",
+    "Email": "neha.baig@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "26.png"
+  },
+  {
+    "Name": "Nestinka Cleta Rebello",
+    "Designation": "Director & CTO",
+    "Email": "nestinka@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "34.png"
+  },
+  {
+    "Name": "Nilufar Sayyad",
+    "Designation": "Software Developer - UI/UX",
+    "Email": "nilufar.sayyad@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "7.png"
+  },
+  {
+    "Name": "Osmar Menino Rodrigues",
+    "Designation": "Senior Software Developer",
+    "Email": "osmar.rodrigues@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "30.png"
+  },
+  {
+    "Name": "Param Abhay Bhat",
+    "Designation": "Senior Software Developer",
+    "Email": "param.bhat@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "10.png"
+  },
+  {
+    "Name": "Parvez Shaikh",
+    "Designation": "Software Developer",
+    "Email": "parvez.shaikh@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "6.png"
+  },
+  {
+    "Name": "Plazira Maria Cardozo",
+    "Designation": "Tech Lead",
+    "Email": "plazira.cardozo@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "3.png"
+  },
+  {
+    "Name": "Precious Fernandes",
+    "Designation": "Junior Human Resources",
+    "Email": "precious.fernandes@CdMx.in",
+    "Phone": 8956647953,
+    "Sign Pic": "35.png"
+  },
+  {
+    "Name": "Priyanka Bhagat",
+    "Designation": "IT Technical Support Executive",
+    "Email": "priyanka.bhagat@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "2.png"
+  },
+  {
+    "Name": "Puneet Sharma",
+    "Designation": "Tech Lead",
+    "Email": "puneet.sharma@CdMx.in",
+    "Phone": " 08322976020"
+  },
+  {
+    "Name": "Rahul R. Raikar ",
+    "Designation": "Systems & Network Administrator",
+    "Email": "rahul.raikar@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "1.png"
+  },
+  {
+    "Name": "Raquel Fernandes",
+    "Designation": "Executive - Compliance",
+    "Email": "raquel.fernandes@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "19.png"
+  },
+  {
+    "Name": "Ravi Shah",
+    "Designation": "Senior Project Manager",
+    "Email": "ravi.shah@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Raveena Rivonkar",
+    "Designation": "Junior Human Resources",
+    "Email": "raveena.rivonker@CdMx.in",
+    "Phone": 8956647954,
+    "Sign Pic": "32.png"
+  },
+  {
+    "Name": "Remy D'souza",
+    "Designation": "Team Lead - Human Resources",
+    "Email": "remy.dsouza@CdMx.in",
+    "Phone": 7743994732,
+    "Sign Pic": "31.png"
+  },
+  {
+    "Name": "Renifa Diniz",
+    "Designation": "Business Analyst",
+    "Email": "renifa.diniz@CdMx.in",
+    "Phone": 9175270525,
+    "Sign Pic": "36.png"
+  },
+  {
+    "Name": "Renita Barretto",
+    "Designation": "Senior Quality Analyst",
+    "Email": "renita.barretto@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "50.png"
+  },
+  {
+    "Name": "Rohit Bhute",
+    "Designation": "Tech Lead",
+    "Email": "rohit.bhute@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "18.png"
+  },
+  {
+    "Name": "Roney Dsilva",
+    "Designation": "Senior Systems & Network Administrator",
+    "Email": "roney.dsilva@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "40.png"
+  },
+  {
+    "Name": "Roselina D'Souza",
+    "Designation": "Senior Executive - Compliance",
+    "Email": "roselina.dsouza@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "48.png"
+  },
+  {
+    "Name": "Reuben Fernandes ",
+    "Designation": "Graphic Designer",
+    "Email": "reuben.fernandes@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "51.png"
+  },
+  {
+    "Name": "Samata Kandolkar",
+    "Designation": "Development Manager",
+    "Email": "samata.kandolkar@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "45.png"
+  },
+  {
+    "Name": "Sathyam Kakodkar",
+    "Designation": "MIS Officer",
+    "Email": "sathyam.kakodkar@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "12.png"
+  },
+  {
+    "Name": "Scanlon Rebelo",
+    "Designation": "Junior Software Developer- UI/UX",
+    "Email": "scanlon.rebelo@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "14.png"
+  },
+  {
+    "Name": "Scelvvy Francisco Santana Afonso",
+    "Designation": "Trainee Software Developer",
+    "Email": "scelvvy.afonso@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "13.png"
+  },
+  {
+    "Name": "Shane Jose Fernandes",
+    "Designation": "Software Developer",
+    "Email": "shane.fernandes@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "11.png"
+  },
+  {
+    "Name": "Shikha Rana",
+    "Designation": "Quality Analyst Manager",
+    "Email": "shikha.rana@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "5.png"
+  },
+  {
+    "Name": "Shine Cardozo",
+    "Designation": "Systems & Network Administrator",
+    "Email": "shine.cardozo@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "16.png"
+  },
+  {
+    "Name": "Stephy George",
+    "Designation": "Quality Analyst",
+    "Email": "stephy.george@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "49.png"
+  },
+  {
+    "Name": "Vaibhav Nagvekar",
+    "Designation": "Quality Analyst",
+    "Email": "vaibhav.nagvekar@CdMx.in",
+    "Phone": "08322976020"
+  },
+  {
+    "Name": "Vijendar P Reddy",
+    "Designation": "DevOps Engineer",
+    "Email": "vijendar.reddy@CdMx.in",
+    "Phone": "08322976020",
+    "Sign Pic": "23.png"
+  },
+  {
+    "Name": "VinodKumar Sharma",
+    "Designation": "Administrative Manager",
+    "Email": "vinod@CdMx.in",
+    "Phone": "9545885505\r\n",
+    "Sign Pic": "41.png"
+  },
+  {
+    "Name": "Shanu Dange",
+    "Designation": "Chief Financial Officer",
+    "Email": "shanudange@CdMx.in",
+    "Phone": 8668442168,
+    "Sign Pic": "44.png"
+  }
+]
