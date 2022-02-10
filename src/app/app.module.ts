@@ -9,6 +9,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { ClipboardModule } from 'ngx-clipboard';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { NewSignatureComponent } from './new-signature/new-signature.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCardModule} from '@angular/material/card';
+import { MatCommonModule } from '@angular/material/core';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -16,14 +22,20 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     SignatureComponent,
     StringPipe,
     SlicerestPipe,
-    SignatureListComponent
+    SignatureListComponent,
+    NewSignatureComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ClipboardModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    ReactiveFormsModule,
+    MatCardModule,
+    MatCommonModule,
+    MatFormFieldModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

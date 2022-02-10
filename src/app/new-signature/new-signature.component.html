@@ -1,0 +1,59 @@
+<div class="row mt-2 ">
+  <div class="col-md-12">
+  <form (ngSubmit)="submitForm()" [formGroup]="form">
+    <div class="form-group">
+      <mat-card style="width: 500px;" >
+     <mat-card-title class="h1 text-center">Signature Details</mat-card-title>
+     <mat-card-content>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input [ngClass]="{'has-danger': form.get('Name').invalid && (form.get('Name').dirty || form.get('Name').touched),
+                           'has-success':  form.get('Name').valid && (form.get('Name').dirty || form.get('Name').touched)
+      }" type="text" name="fullname"  class="form-control"  formControlName="Name" placeholder="Ashley Colaco" required>
+      </div>
+      <small class="form-text text-danger d-flex align-items-center mt-2 mb-2" *ngIf="form.get('Name').invalid && (form.get('Name').dirty || form.get('Name').touched)">
+      <mat-icon class="mr-2">error</mat-icon>Please provide a name.
+      </small>
+      <div class="form-group" >
+        <label for="designation">Designation</label>
+        <input [ngClass]="{'has-danger': form.get('Designation').invalid && (form.get('Designation').dirty || form.get('Designation').touched),'has-success':  form.get('Designation').valid && (form.get('Designation').dirty || form.get('Designation').touched) }" type="text"  class="form-control" formControlName="Designation" placeholder="Software Developer" required>
+      </div>
+      <small class="form-text text-danger d-flex align-items-center mt-2 mb-2" *ngIf="form.get('Designation').invalid && (form.get('Designation').dirty || form.get('Designation').touched)">
+        <mat-icon class="mr-2">error</mat-icon>Please provide a Designation.
+        </small>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input [ngClass]="{'has-danger': form.get('Email').invalid && (form.get('Email').dirty || form.get('Email').touched),
+        'has-success':  form.get('Email').valid && (form.get('Email').dirty || form.get('Email').touched)
+}" type="text" name="email" class="form-control" formControlName="Email" placeholder="ashley.colaco@cdmx.com" required email>
+      </div>
+      <small class="form-text text-danger d-flex align-items-center mt-2 mb-2" *ngIf="form.get('Email').invalid && (form.get('Email').dirty || form.get('Email').touched)">
+        <mat-icon class="mr-2">error</mat-icon>Please add a valid Email.
+        </small>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input [ngClass]="{'has-danger': form.get('Phone').invalid && (form.get('Phone').dirty || form.get('Phone').touched),
+        'has-success':  form.get('Phone').valid && (form.get('Phone').dirty || form.get('Phone').touched)
+}" type="text" name="phone" class="form-control" formControlName="Phone" placeholder="9545902123" required minlength="10" maxlength="12" >
+      </div>
+      <small class="form-text text-danger d-flex align-items-center mt-2 mb-2" *ngIf="form.get('Phone').invalid && (form.get('Phone').dirty || form.get('Phone').touched)">
+        <mat-icon class="mr-2">error</mat-icon>Phone number should be 10 digits .
+        </small>
+      <div class="form-group">
+        <label for="Sign Pic">Image_Id</label>
+        <input [ngClass]="{'has-danger': form.get('Sign Pic').invalid && (form.get('Sign Pic').dirty || form.get('Sign Pic').touched),
+        'has-success':  form.get('Sign Pic').valid && (form.get('Sign Pic').dirty || form.get('Sign Pic').touched)
+}" type="text" name="Sign Pic" class="form-control" formControlName="Sign Pic" placeholder="32.png" required>
+      </div>
+      <small class="form-text text-danger d-flex align-items-center mt-2 mb-2" *ngIf="form.get('Sign Pic').invalid && (form.get('Sign Pic').dirty || form.get('Sign Pic').touched)">
+        <mat-icon class="mr-2">error</mat-icon>Please provide an ImageId.
+        </small>
+     </mat-card-content>
+     <div class="border">
+      <button [disabled]="!form.valid" class="btn btn-primary btn-block" >Create Signature</button>
+     </div>
+      </mat-card>
+    </div>
+  </form>
+</div>
+</div>

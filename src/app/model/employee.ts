@@ -5,3 +5,4 @@ export interface Employee {
    Phone:number | string ;
    "Sign Pic"?:string;
 }
+

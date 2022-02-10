@@ -1,10 +1,8 @@
-
-
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center mt-3">
   <h3><----------{{employee.Name}} ----------> Click to Copy the Html Code</h3>
 </div>
 
-<a (click)="signatureClicked()" class="list-group-item clearfix d-flex justify-content-center" style="cursor: pointer;text-decoration: none;color: black;" routerLinkActive="active" [routerLink]="[index]" >
+<a (click)="signatureClicked()" class="list-group-item clearfix d-flex justify-content-center " style="cursor: pointer;text-decoration: none;color: black;" [routerLink]="[index]" routerLinkActive="watchdog" >
 
   <table cellspacing="0" cellpadding="0" style="height: fit-content;width:fit-content;" >
 
@@ -12,7 +10,7 @@
         <td rowspan="1" colspan="1" >
             <div style="display: flex;align-items: center;height: 100%;" >
                 <!-- <img  src="22.png" height="160"  alt="profile"> -->
-                <img  src="https://dev-ui.cm20.in/tasks/email_icons/" height="160" width="140"  alt="profile">
+                <img  src="../../../assets/icons/profile.png" height="160" width="140"  alt="profile">
                 </div>
         </td>
 
