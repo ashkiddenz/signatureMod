@@ -3,4 +3,5 @@ declare module "*.json" {
   export default value ;
 }
 
-  declare module 'file-saver';
+declare module 'file-saver';
+

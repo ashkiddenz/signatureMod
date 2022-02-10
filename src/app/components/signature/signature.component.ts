@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { MatSnackBar , MatSnackBarConfig} from '@angular/material/snack-bar';
 import { ClipboardService } from 'ngx-clipboard';
+import { BASE_URL } from 'src/app/constants';
 import { Employee } from 'src/app/model/employee';
 import { ExcelReaderService } from 'src/app/services/excel-reader.service';
 
@@ -14,7 +15,7 @@ export class SignatureComponent  {
   @Input() employee:Employee = null ;
   @Input() index:number;
 
-
+  URL:string = BASE_URL ;
   constructor(private cipboardService:ClipboardService,private snackbar:MatSnackBar,private erService:ExcelReaderService) { }
 
   signatureClicked () {
@@ -29,6 +30,7 @@ export class SignatureComponent  {
 
     this.snackbar.open(`HTML CODE FOR ${this.getFirstName(this.employee)} COPIED`,'close',config)._dismissAfter(2000);
     this.cipboardService.copy(html);
+    console.log(html);
   }
 
   getFirstName(employee:Employee) {
