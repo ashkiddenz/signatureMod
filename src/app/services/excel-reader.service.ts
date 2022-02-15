@@ -2,6 +2,7 @@ import { Injectable } from "@angular/core";
 import { Employee } from '../model/employee'
 import employees from '../../assets/employees.json'
 import { BASE_URL } from "../constants";
+import { last } from "rxjs";
 
 
 @Injectable({
@@ -23,18 +24,17 @@ setEmployees() {
 createHtml (employee:Employee) {
   let fullName      = employee.Name.toUpperCase();
   let firstName     = fullName.split(" ")[0];
-  let remainingName = this.processRemainingName(fullName);
+  let lastName      = this.processlastName(fullName);
   let designation   = employee.Designation;
   let phone         = +employee.Phone;
   let email         = employee.Email;
   let png           = employee['Sign Pic'] || null;
-
+  console.log(lastName);
   return `
   <table cellspacing="0" cellpadding="0" style="height: fit-content;width:fit-content;" >
   <tr>
       <td rowspan="1" colspan="1" >
           <div style="display: flex;align-items: center;height: 100%;">
-              <!-- <img  src="22.png" height="160"  alt="profile"> -->
               <img  src="${this.URL}/${png}" height="160" width="140"  alt="profile">
               </div>
       </td>
@@ -44,15 +44,15 @@ createHtml (employee:Employee) {
           </div>
       </td>
       <td rowspan="1" colspan="2">
-       <div style="height: 100%;vertical-align: baseline;white-space: nowrap;">
+       <div style="height: 90%;vertical-align: baseline;white-space: nowrap;">
           <div style="width: 100%;height: 28%;">
               <p style="margin:0;font-family: sans-serif;font-size: 16px;">
-                <b style="font-weight: 750;">${firstName}</b><span style="font-weight: 500;">${remainingName}</span></p>
-              <p style="margin:0;color:#3FABBD;font-weight: bold;font-size: 12px;font-family: sans-serif;"><i>${designation}</i></p>
+                <b style="font-weight: 750;">${firstName}</b>&nbsp;<span style="font-weight: 500;">${lastName}</span></p>
+              <p style="margin-top:0;color:#3FABBD;font-weight: bold;font-size: 12px;font-family: sans-serif;"><i>${designation}</i></p>
             </div>
             <div style="width: 100%;height: 18%;">
               <img style="height: 15px;vertical-align: middle;" src="${this.URL}/phone.png" height="15" alt="mobile">
-              <span style="font-family: sans-serif;font-size:12px;margin-left: 3px;">+${phone}</span>
+              <span style="font-family: sans-serif;font-size:12px;margin-left: 5px;">+${phone}</span>
             </div>
 
             <div style="width: 100%;height: 18%;">
@@ -62,17 +62,17 @@ createHtml (employee:Employee) {
 
             <div style="width: 100%;height: 18%;">
               <img style="height: 15px;vertical-align: middle;" src="${this.URL}/website.png" height="15"  alt="website">
-              <span style="font-family: sans-serif;font-size:12px;margin-left: 12px;">www.CdMx.in</span>
+              <span style="font-family: sans-serif;font-size:12px;margin-left: 10px;">www.CdMx.in</span>
             </div>
 
             <div style="width: 100%;height: 18%;">
               <img style="height: 15px;vertical-align: middle;" src="${this.URL}/location.png" height="15" alt="location">
-              <span style="font-family:sans-serif;font-size:12px;margin-left:12px">Goa - India</span>
+              <span style="font-family:sans-serif;font-size:12px;margin-left:10px">Goa - India</span>
             </div>
 
        </div>
 
-      <td rowspan="1" colspan="1" style="width:40px;">
+      <td rowspan="1" colspan="1" style="width:30px;">
           <div style="height: 100%;width: 100%;">
               <div style="background-color:#4cc9d6;width: 2px;height: 100%;margin-left: auto;margin-right: auto;"></div>
           </div>
@@ -80,9 +80,9 @@ createHtml (employee:Employee) {
 
       <td rowspan="1" colspan="1" style="height: 160px;vertical-align: middle;">
           <div  style="height:fit-content">
-              <div style="width: 100%;text-align: center;">
+              <div style="width: 200px;text-align: center;">
                      <div style="display:flex;height:fit-content;margin-bottom: 20px;">
-                      <img src="${this.URL}/LOGO.png" height="90px" alt="company logo">
+                      <img src="${this.URL}/LOGO.png" width="200" height="90" alt="company logo">
                     </div>
                 </div>
                 <div style="display:flex;width:100%;">
@@ -114,12 +114,24 @@ createHtml (employee:Employee) {
       </td>
   </tr>
   <tr>
-      <td style="height:10px" colspan="7"></td>
+      <td style="height:5px" colspan="7"></td>
     </tr>
 
   <tr>
   <td style="height:15px;background-color:#4cc9d6" colspan="7" ></td>
   </tr>
+
+  <tr>
+  <td colspan="7">
+      <div style="width: 600px;height: auto;text-align: justify;font-size: 10px;font-weight: 400;line-height: 1.6;padding-left: 2px;font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;padding-top:10px;color: #4A4B4C;">
+          This e-mail may contain privileged and confidential information which is the property of CodeMax IT Solutions Pvt. Ltd.
+          It is intended only for the use of the individual or entity to which it is addressed.
+          If you are not the intended recipient, you are not authorized to read, retain, copy, print, distribute or use this message.
+          If you have received this communication in error,
+          please notify the sender and delete all copies of this message. CodeMax IT Solutions Pvt. Ltd. does not accept any liability for virus infected e-mails.
+      </div>
+  </td>
+</tr>
 
 </table>
   `
@@ -129,10 +141,11 @@ createSignature (employee:Employee) {
   this.employeeArray = [employee];
 }
 
-processRemainingName(fullName:string) {
-   let remainingName;
-   return remainingName = fullName.split(" ")[2] ? fullName.split(" ")[3] ?
-   `${fullName.split(" ")[1] + " " + fullName.split(" ")[2] + " " + fullName.split(" ")[3]}` : `${fullName.split(" ")[1] + " " + fullName.split(" ")[2]}` : `${fullName.split(" ")[1]}` ;
+processlastName(fullName:string) {
+  let idx = fullName.lastIndexOf(' ');
+  if (idx == -1)
+      throw new Error("Only a single name: " + fullName);
+  return fullName.substring(idx + 1);
 }
 
 }

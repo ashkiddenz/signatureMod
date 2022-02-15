@@ -7,7 +7,7 @@
   <table cellspacing="0" cellpadding="0" style="height: fit-content;width:fit-content;" >
 
     <tr>
-        <td rowspan="1" colspan="1" >
+        <td rowspan="1" colspan="1">
             <div style="display: flex;align-items: center;height: 100%;" >
                 <!-- <img  src="22.png" height="160"  alt="profile"> -->
                 <img  src="{{URL}}/{{employee['Sign Pic']}}" height="160" width="140"  alt="{{employee.Name}}">
@@ -15,19 +15,19 @@
         </td>
 
         <td rowspan="1" colspan="1">
-            <div style="width: 20px;">
+            <div style="width: 10px;">
             </div>
         </td>
         <td rowspan="1" colspan="2">
-         <div style="height: 100%;vertical-align: baseline;white-space: nowrap;">
+         <div style="height: 90%;vertical-align: baseline;white-space: nowrap;">
             <div style="width: 100%;height: 28%;">
                 <p style="margin:0;font-family: sans-serif;font-size: 16px;">
-                  <b style="font-weight: 750;">{{employee.Name | slicefirst | uppercase }}</b><span style="font-weight: 500;">{{employee.Name | uppercase | slicerest  }}</span></p>
+                  <b style="font-weight: 750;">{{employee.Name | slicefirst | uppercase }} </b><span style="font-weight: 500;">{{employee.Name | uppercase | slicerest  }}</span></p>
                 <p style="margin:0;color:#3FABBD;font-weight: bold;font-size: 12px;font-family: sans-serif;"><i>{{employee.Designation}}</i></p>
               </div>
               <div style="width: 100%;height: 18%;">
                 <img style="height: 15px;vertical-align: middle;" src="{{URL}}\phone.png" height="15" alt="mobile">
-                <span style="font-family: sans-serif;font-size:12px;margin-left: 3px;">+{{employee.Phone}}</span>
+                <span style="font-family: sans-serif;font-size:12px;margin-left:5px">+{{employee.Phone}}</span>
               </div>
 
               <div style="width: 100%;height: 18%;">
@@ -37,27 +37,27 @@
 
               <div style="width: 100%;height: 18%;">
                 <img style="height: 15px;vertical-align: middle;" src="{{URL}}\website.png" height="15"  alt="website">
-                <span style="font-family: sans-serif;font-size:12px;margin-left: 12px;">www.CdMx.in</span>
+                <span style="font-family: sans-serif;font-size:12px;margin-left: 10px;">www.CdMx.in</span>
               </div>
 
               <div style="width: 100%;height: 18%;">
                 <img style="height: 15px;vertical-align: middle;" src="{{URL}}\location.png" height="15" alt="location">
-                <span style="font-family:sans-serif;font-size:12px;margin-left:12px">Goa - India</span>
+                <span style="font-family:sans-serif;font-size:12px;margin-left:10px">Goa - India</span>
               </div>
 
          </div>
 
-        <td rowspan="1" colspan="1" style="width:40px;">
-            <div style="height: 100%;width: 100%;">
+        <td rowspan="1" colspan="1" style="width:30px;">
+            <div style="height: 90%;width: 30px;">
                 <div style="background-color:#4cc9d6;width: 2px;height: 100%;margin-left: auto;margin-right: auto;"></div>
             </div>
         </td>
 
         <td rowspan="1" colspan="1" style="height: 160px;vertical-align: middle;">
-            <div  style="height:fit-content">
-                <div style="width: 100%;text-align: center;">
+            <div  style="height:90%">
+                <div style="width: 200px;text-align: center;">
                        <div style="display:flex;height:fit-content;margin-bottom: 20px;">
-                        <img src="{{URL}}\LOGO.png" height="90px" alt="company logo">
+                        <img src="{{URL}}\LOGO.png" width="200" height="90" alt="company logo">
                       </div>
                   </div>
                   <div style="display:flex;width:100%;">
@@ -75,7 +75,6 @@
                         </div>
 
                         <div style="width:33.33%;text-align:left">
-
                             <a href="https://www.linkedin.com/company/codemax-pvt-ltd/mycompany/" target="_blank">
                               <img src="{{URL}}\Linkedin.png" height="20"  alt="LinkedIn!">
                             </a>
@@ -94,6 +93,18 @@
     <tr>
     <td style="height:15px;background-color:#4cc9d6" colspan="7" ></td>
     </tr>
+
+    <tr>
+      <td colspan="7">
+          <div style="width:600px;height: auto;text-align: justify;font-size: 10px;font-weight: 400;line-height: 1.6;padding-left: 2px;font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;padding-top:10px;color: #4A4B4C;">
+              This e-mail may contain privileged and confidential information which is the property of CodeMax IT Solutions Pvt. Ltd.
+              It is intended only for the use of the individual or entity to which it is addressed.
+              If you are not the intended recipient, you are not authorized to read, retain, copy, print, distribute or use this message.
+              If you have received this communication in error,
+              please notify the sender and delete all copies of this message. CodeMax IT Solutions Pvt. Ltd. does not accept any liability for virus infected e-mails.
+          </div>
+      </td>
+  </tr>
 
   </table>
 
